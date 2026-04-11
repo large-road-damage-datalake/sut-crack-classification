@@ -1,0 +1,18 @@
+{
+  "type": "treemap",
+  "title": "Class Treemap",
+  "series": [
+    {
+      "data": [
+        {
+          "x": "non-cracked",
+          "y": 23675
+        },
+        {
+          "x": "cracked",
+          "y": 1886
+        }
+      ]
+    }
+  ]
+}

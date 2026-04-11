@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "sut-crack-classification",
+    "name": "SUT-Crack Classification",
+    "short_name": "sut-crack-cls",
+    "description": "Classification subset of SUT-Crack with image-level labels split into cracked and non-cracked classes.",
+    "year": 2023
+  },
+  "project_context": {
+    "task": "classification",
+    "tasks": [
+      "classification"
+    ],
+    "damage_types": [
+      "crack",
+      "non-crack"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "Ground-facing pavement capture setup",
+    "resolution": "200x200 patches (derived from original images)",
+    "lighting_conditions": "Variable lighting with shadows and oil stains",
+    "capture_height_mm": 672,
+    "geotagged": true
+  },
+  "annotation_schema": [
+    {
+      "type": "classification",
+      "description": "Image-level crack presence labels",
+      "classes": [
+        {
+          "id": 0,
+          "name": "non-cracked",
+          "description": "Image patch without visible crack",
+          "color": "#00AA00"
+        },
+        {
+          "id": 1,
+          "name": "cracked",
+          "description": "Image patch containing crack",
+          "color": "#FF0000"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 25561,
+    "n_annotations": 25561,
+    "n_images_with_annotations": 25561,
+    "average_annotations_per_image": 1.0,
+    "image_format": "image_folder",
+    "class_distribution": {
+      "cracked": 1886,
+      "non-cracked": 23675
+    },
+    "split": {
+      "data": {
+        "n_images": 25561,
+        "percentage": 1.0
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "Unknown",
+        "image_count": 25561
+      }
+    ],
+    "temporal_scope": "Published 2023"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Class labels derived from the SUT-Crack publication process",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset (Mendeley Data V6)"
+  },
+  "authors": [
+    {
+      "name": "Mohammadreza Sabouri",
+      "affiliation": "Sharif University of Technology",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Alireza Sepidbar",
+      "affiliation": "Sharif University of Technology",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "source_publication": {
+    "dataset_doi": "10.17632/gsbmknrhkv.6",
+    "article_doi": "10.1016/j.dib.2023.109642",
+    "article_title": "SUT-Crack: A comprehensive dataset for pavement crack detection across all methods",
+    "journal": "Data in Brief",
+    "year": 2023
+  },
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/sut-crack-classification",
+    "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
+    "doi": "https://doi.org/10.17632/gsbmknrhkv.6",
+    "paper": "https://doi.org/10.1016/j.dib.2023.109642",
+    "homepage": "https://data.mendeley.com/datasets/gsbmknrhkv/6"
+  },
+  "citation": {
+    "bibtex": "@dataset{sabouri2023sutcrack,\n  author = {Sabouri, Mohammadreza and Sepidbar, Alireza},\n  title = {SUT-Crack},\n  year = {2023},\n  publisher = {Mendeley Data},\n  version = {6},\n  doi = {10.17632/gsbmknrhkv.6},\n  url = {https://doi.org/10.17632/gsbmknrhkv.6}\n}",
+    "article_bibtex": "@article{sabouri2023sutcrack_article,\n  title = {SUT-Crack: A comprehensive dataset for pavement crack detection across all methods},\n  author = {Sabouri, Mohammadreza and Sepidbar, Alireza},\n  journal = {Data in Brief},\n  volume = {51},\n  pages = {109642},\n  year = {2023},\n  doi = {10.1016/j.dib.2023.109642}\n}"
+  },
+  "tags": [
+    "classification",
+    "pavement-crack",
+    "asphalt",
+    "road-damage",
+    "sut-crack"
+  ]
+}

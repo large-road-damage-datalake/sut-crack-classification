@@ -1,0 +1,29 @@
+{
+  "columns": [
+    "Class",
+    "Share(%)",
+    "Objects",
+    "Objects per image"
+  ],
+  "data": [
+    [
+      "non-cracked",
+      92.62,
+      23675,
+      0.926
+    ],
+    [
+      "cracked",
+      7.38,
+      1886,
+      0.074
+    ]
+  ],
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 50
+  }
+}
