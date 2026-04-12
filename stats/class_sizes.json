@@ -1,10 +1,44 @@
 {
   "columns": [
     "Class",
-    "Mean area",
-    "Median area",
-    "Min area",
-    "Max area"
+    "Object count",
+    "Avg area (%)",
+    "Max area (%)",
+    "Min area (%)",
+    "Min height (px)",
+    "Min height (%)",
+    "Max height (px)",
+    "Max height (%)",
+    "Avg height (px)",
+    "Avg height (%)"
   ],
-  "data": []
+  "data": [
+    [
+      "non-cracked",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "cracked",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
 }

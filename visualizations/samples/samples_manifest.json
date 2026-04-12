@@ -1,0 +1,95 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\non-cracked\\2 (13281).jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_02_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\non-cracked\\2 (7548).jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_03_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (1).jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_04_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\non-cracked\\2 (3724).jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_05_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (1044).jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_06_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (589).jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_07_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (668).jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_08_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\non-cracked\\2 (15570).jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_09_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (542).jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_10_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (481).jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    }
+  ],
+  "count": 10
+}

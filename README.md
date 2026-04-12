@@ -1,38 +1,35 @@
-﻿# SUT-Crack Classification
+# SUT-Crack - Classification
 
 ## Overview
 
-SUT-Crack Classification is a task-specific package derived from the SUT-Crack dataset.
+This package provides the **Classification** variant of SUT-Crack for the Large Road Damage DataLake.
 
+SUT-Crack was introduced in *Data in Brief* as a pavement crack dataset designed to support
+classification, object detection, and segmentation workflows under challenging field conditions.
+
+- Dataset ID: sut-crack-classification
 - Task: classification
 - Images: 25561
 - Annotations: 25561
 - Classes: 2 (cracked, non-cracked)
-- Annotation format: Image-level labels organized in class folders
+- Format: image_folder
+- Source dataset DOI: 10.17632/gsbmknrhkv.6
+- Source paper DOI: 10.1016/j.dib.2023.109642
 
-This subset corresponds to 200x200 image patches categorized into cracked and non-cracked classes.
+## Source Facts
+
+- Original crack imagery for segmentation/object detection: 130 images.
+- Images captured from fixed height: 672 mm above pavement.
+- Geotag metadata included (latitude/longitude per image in source dataset).
+- Classification set built by 200x200 cropping, producing over 25,000 patches.
+- Paper reports that tiling produced over 25,000 patches for classification.
 
 ## Source Dataset
 
-- Name: SUT-Crack
-- Dataset DOI: 10.17632/gsbmknrhkv.6
-- Dataset URL: https://data.mendeley.com/datasets/gsbmknrhkv/6
-- Article DOI: 10.1016/j.dib.2023.109642
-- Article title: SUT-Crack: A comprehensive dataset for pavement crack detection across all methods
-
-## Authors
-
-- Mohammadreza Sabouri (Sharif University of Technology)
-- Alireza Sepidbar (Sharif University of Technology)
-
-## License
-
-The source dataset is published under CC BY 4.0 (Mendeley Data).
-
-## Repository Links
-
-- Package repo: https://github.com/large-road-damage-datalake/sut-crack-classification
-- Source dataset: https://data.mendeley.com/datasets/gsbmknrhkv/6
+- Source URL: https://data.mendeley.com/datasets/gsbmknrhkv/6
+- Mendeley DOI URL: https://doi.org/10.17632/gsbmknrhkv.6
+- Source paper: https://doi.org/10.1016/j.dib.2023.109642
+- Package URL: https://github.com/large-road-damage-datalake/sut-crack-classification
 
 ## Package Contents
 
