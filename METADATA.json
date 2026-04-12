@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "sut-crack-classification",
-    "name": "SUT-Crack Classification",
+    "name": "SUT-Crack",
     "short_name": "sut-crack-cls",
     "description": "Classification subset of SUT-Crack with image-level labels split into cracked and non-cracked classes.",
     "year": 2023
