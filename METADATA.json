@@ -37,10 +37,16 @@
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "Variable original image resolutions",
+    "resolution": "200x200",
     "lighting_conditions": "Includes varied lighting, shadows, and oil-stain conditions",
     "capture_height_mm": 672,
-    "geotagged": true
+    "geotagged": true,
+    "resolution_details": [
+      {
+        "resolution": "200x200",
+        "count": 25561
+      }
+    ]
   },
   "annotation_schema": [
     {
@@ -91,7 +97,9 @@
     "countries": [
       {
         "name": "Iran",
-        "image_count": 1886
+        "image_count": 1886,
+        "annotated_image_count": 1886,
+        "annotation_coverage": 1.0
       }
     ],
     "temporal_scope": "Published in 2023 (Mendeley Data v6)"
