@@ -18,13 +18,6 @@
     "task_classification": {
       "primary_task": "classification"
     },
-    "source_publication": {
-      "title": "SUT-Crack: A comprehensive dataset for pavement crack detection across all methods",
-      "journal": "Data in Brief",
-      "year": 2023,
-      "doi": "10.1016/j.dib.2023.109642",
-      "url": "https://doi.org/10.1016/j.dib.2023.109642"
-    },
     "source_dataset": {
       "name": "SUT-Crack",
       "doi": "10.17632/gsbmknrhkv.6",
@@ -105,9 +98,9 @@
     "temporal_scope": "Published in 2023 (Mendeley Data v6)"
   },
   "quality_assurance": {
-    "annotation_quality": "High",
-    "inter_annotator_agreement": "95%",
-    "review_status": "Fully reviewed"
+    "annotation_quality": "Labels published with Mendeley Data dataset release",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset"
   },
   "authors": [
     {
@@ -137,5 +130,12 @@
     "road-crack",
     "road-damage",
     "sut-crack"
-  ]
+  ],
+  "source_publication": {
+    "dataset_doi": "10.17632/gsbmknrhkv.6",
+    "article_doi": "10.1016/j.dib.2023.109642",
+    "article_title": "SUT-Crack: A comprehensive dataset for pavement crack detection across all methods",
+    "journal": "Data in Brief",
+    "year": 2023
+  }
 }

@@ -1,10 +1,10 @@
 {
   "samples": [
     {
-      "file": "sample_01_c1_non-cracked.jpg",
-      "source": "D:/PhD/Datasets/classification/SUT-Crack\\non-cracked\\2 (13281).jpg",
+      "file": "sample_01_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (481).jpg",
       "classes": [
-        "non-cracked"
+        "cracked"
       ],
       "num_classes": 1,
       "objects": 1,
@@ -154,10 +154,10 @@
       }
     },
     {
-      "file": "sample_10_c1_cracked.jpg",
-      "source": "D:/PhD/Datasets/classification/SUT-Crack\\cracked\\1 (481).jpg",
+      "file": "sample_10_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SUT-Crack\\non-cracked\\2 (13281).jpg",
       "classes": [
-        "cracked"
+        "non-cracked"
       ],
       "num_classes": 1,
       "objects": 1,
