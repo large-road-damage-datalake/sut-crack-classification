@@ -5,7 +5,7 @@
     "name": "SUT-Crack",
     "short_name": "sut-crack-cls",
     "description": "Image classification packaging of SUT-Crack using 200x200 crops labeled as cracked and non-cracked.",
-    "year": 2023
+    "year": 2026
   },
   "project_context": {
     "task": "classification",
@@ -18,12 +18,7 @@
     "task_classification": {
       "primary_task": "classification"
     },
-    "source_dataset": {
-      "name": "SUT-Crack",
-      "doi": "10.17632/gsbmknrhkv.6",
-      "url": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
-      "version": "6"
-    }
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "Road-surface imaging setup from source dataset",
@@ -50,13 +45,17 @@
           "id": 1,
           "name": "cracked",
           "description": "SUT-Crack class: cracked",
-          "color": "#294F71"
+          "color": "#294F71",
+          "canonical_name": "crack",
+          "instances": 1886
         },
         {
           "id": 2,
           "name": "non-cracked",
           "description": "SUT-Crack class: non-cracked",
-          "color": "#529EE2"
+          "color": "#529EE2",
+          "canonical_name": "class.negative",
+          "instances": 23675
         }
       ]
     }
@@ -65,7 +64,7 @@
     "n_images": 25561,
     "n_annotations": 25561,
     "n_images_with_annotations": 25561,
-    "average_annotations_per_image": 1.0,
+    "average_annotations_per_image": 1,
     "dataset_size": "255.00 MB",
     "dataset_size_bytes": 267385132,
     "dataset_file_count": 25561,
@@ -77,9 +76,9 @@
     "split": {
       "data": {
         "n_images": 25561,
-        "percentage": 1.0,
+        "percentage": 1,
         "n_images_with_annotations": 25561,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "255.00 MB",
         "dataset_size_bytes": 267385132,
         "dataset_file_count": 25561
@@ -92,10 +91,10 @@
         "name": "Iran",
         "image_count": 1886,
         "annotated_image_count": 1886,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1
       }
     ],
-    "temporal_scope": "Published in 2023 (Mendeley Data v6)"
+    "temporal_scope": "Unknown"
   },
   "quality_assurance": {
     "annotation_quality": "Labels published with Mendeley Data dataset release",
@@ -104,17 +103,12 @@
   },
   "authors": [
     {
-      "name": "Mohammadreza Sabouri",
-      "affiliation": "Sharif University of Technology",
-      "role": "Dataset Creator"
-    },
-    {
-      "name": "Alireza Sepidbar",
-      "affiliation": "Sharif University of Technology",
+      "name": "SUT-Crack Authors",
+      "affiliation": "Unknown",
       "role": "Dataset Creator"
     }
   ],
-  "license": "CC BY 4.0",
+  "license": "Unknown",
   "links": {
     "github": "https://github.com/large-road-damage-datalake/sut-crack-classification",
     "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
@@ -137,5 +131,57 @@
     "article_title": "SUT-Crack: A comprehensive dataset for pavement crack detection across all methods",
     "journal": "Data in Brief",
     "year": 2023
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "class.negative",
+        "display_name": "Non cracked",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "negative",
+        "role": "negative",
+        "is_damage_target": false,
+        "aliases": [
+          "non-cracked",
+          "negative",
+          "normal",
+          "intact",
+          "healthy"
+        ],
+        "source_labels": [
+          "non-cracked"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack",
+        "display_name": "Cracked",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "cracked",
+          "crack"
+        ],
+        "source_labels": [
+          "cracked"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "unresolved_labels": []
+  },
+  "source_dataset": {
+    "name": "SUT-Crack",
+    "doi": "10.17632/gsbmknrhkv.6",
+    "url": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
+    "version": "6"
   }
 }
