@@ -5,7 +5,7 @@
     "name": "SUT-Crack",
     "short_name": "sut-crack-cls",
     "description": "Image classification packaging of SUT-Crack using 200x200 crops labeled as cracked and non-cracked.",
-    "year": 2026
+    "year": 2023
   },
   "project_context": {
     "task": "classification",
@@ -108,7 +108,7 @@
       "role": "Dataset Creator"
     }
   ],
-  "license": "Unknown",
+  "license": "CC BY 4.0",
   "links": {
     "github": "https://github.com/large-road-damage-datalake/sut-crack-classification",
     "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
