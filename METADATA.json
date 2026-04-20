@@ -133,14 +133,17 @@
     "year": 2023
   },
   "class_taxonomy": {
-    "version": "road_damage_v1",
+    "version": "road_damage_v2",
     "classes": [
       {
         "canonical_name": "class.negative",
-        "display_name": "Non cracked",
-        "damage_family": "context_non_damage",
+        "display_name": "Negative",
+        "damage_family": "unknown",
         "damage_subtype": "negative",
         "role": "negative",
+        "semantic_role": "absence",
+        "training_role": "negative",
+        "status": "stable",
         "is_damage_target": false,
         "aliases": [
           "non-cracked",
@@ -152,25 +155,32 @@
         "source_labels": [
           "non-cracked"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack",
-        "display_name": "Cracked",
+        "display_name": "Crack",
         "damage_family": "crack",
         "damage_subtype": "generic",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "cracked",
-          "crack"
+          "crack",
+          "cracked"
         ],
         "source_labels": [
           "cracked"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       }
     ],
     "damage_types": [
