@@ -2,13 +2,29 @@
   "total_images": 25561,
   "total_annotations": 25561,
   "total_classes": 2,
+  "annotated_images": 25561,
+  "annotation_coverage": 1.0,
+  "image_resolution_histogram": {
+    "200x200": 25561
+  },
+  "resolution_details": [
+    {
+      "resolution": "200x200",
+      "count": 25561
+    }
+  ],
   "splits_breakdown": {
     "data": {
       "images": 25561,
       "annotations": 25561,
+      "annotated_images": 25561,
+      "annotation_coverage": 1.0,
       "classes": {
         "cracked": 1886,
         "non-cracked": 23675
+      },
+      "image_resolution_histogram": {
+        "200x200": 25561
       }
     }
   }
