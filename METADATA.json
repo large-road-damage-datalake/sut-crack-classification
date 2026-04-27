@@ -16,8 +16,7 @@
       "crack"
     ],
     "task_classification": {
-      "primary_task": "classification",
-      "task_subtype": "image_classification"
+      "primary_task": "classification"
     },
     "label_taxonomy_version": "road_damage_v2",
     "source_dataset": {
