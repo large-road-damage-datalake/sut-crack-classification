@@ -18,11 +18,11 @@ classification, object detection, and segmentation workflows under challenging f
 
 ## Source Facts
 
-- Original crack imagery for segmentation/object detection: 130 images.
+- Original crack imagery for segmentation/object detection: 130 images (3024x4032).
 - Images captured from fixed height: 672 mm above pavement.
-- Geotag metadata included (latitude/longitude per image in source dataset).
-- Classification set built by 200x200 cropping, producing over 25,000 patches.
-- Paper reports that tiling produced over 25,000 patches for classification.
+- Captured with a Samsung Galaxy S20 FE smartphone mounted on the rear bumper of a vehicle on Hashemieh Boulevard, Mashhad, Iran.
+- Geotag metadata included on the 130 parent images in the source dataset.
+- Classification set built by 200x200 cropping from the 130 parent images, producing 25,561 patches (1,886 `cracked`, 23,675 `non-cracked`; all 25,561 files have unique SHA-256 hashes) in the Mendeley Data v6 release (the *Data in Brief* article text reports 25,563 patches).
 
 ## Source Dataset
 

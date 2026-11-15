@@ -27,7 +27,7 @@
     }
   },
   "imaging_setup": {
-    "camera": "Road-surface imaging setup from source dataset",
+    "camera": "Samsung Galaxy S20 FE smartphone (7.3 x 5.4 mm sensor, 5.4 mm lens) mounted on a vehicle's rear bumper",
     "camera_viewpoint": [
       "top-down"
     ],
@@ -163,9 +163,11 @@
         "annotation_coverage": 1.0,
         "dataset_size": "255.00 MB",
         "dataset_size_bytes": 267385132,
-        "dataset_file_count": 25561
+        "dataset_file_count": 25561,
+        "annotated": true
       }
-    }
+    },
+    "n_images_in_annotated_splits": 25561
   },
   "geographic_coverage": {
     "countries": [
@@ -176,22 +178,22 @@
         "annotation_coverage": 1.0
       }
     ],
-    "temporal_scope": "Published in 2023 (Mendeley Data v6)"
+    "temporal_scope": "Published in 2023 (Mendeley Data v6, 2023-09-18); captured on Hashemieh Boulevard, Mashhad, Iran"
   },
   "quality_assurance": {
-    "annotation_quality": "Labels published with Mendeley Data dataset release",
+    "annotation_quality": "Image-level folder labels assigned to 25,561 200x200 patches (1,886 cracked, 23,675 non-cracked; all 25,561 files have unique SHA-256 hashes) cropped from the 130 parent 3024x4032 asphalt pavement images in the Mendeley Data v6 release (the Data in Brief article text states 25,563 patches). Geotags are provided on the 130 parent images in the source deposit.",
     "inter_annotator_agreement": "Not reported",
     "review_status": "Published dataset"
   },
   "authors": [
     {
       "name": "Mohammadreza Sabouri",
-      "affiliation": "Sharif University of Technology",
+      "affiliation": "Department of Civil Engineering, Sharif University of Technology",
       "role": "Dataset Creator"
     },
     {
       "name": "Alireza Sepidbar",
-      "affiliation": "Sharif University of Technology",
+      "affiliation": "Department of Civil Engineering, Sharif University of Technology",
       "role": "Dataset Creator"
     }
   ],
@@ -199,6 +201,7 @@
   "links": {
     "github": "https://github.com/large-road-damage-datalake/sut-crack-classification",
     "download": "https://data.mendeley.com/datasets/gsbmknrhkv/6",
+    "doi": "https://doi.org/10.17632/gsbmknrhkv.6",
     "paper": "https://doi.org/10.1016/j.dib.2023.109642",
     "homepage": "https://data.mendeley.com/datasets/gsbmknrhkv/6"
   },
